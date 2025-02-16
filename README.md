@@ -4,6 +4,12 @@ This is a simple React application that allows users to search for GitHub users 
 
 ---
 
+## Try It Online
+
+You can try the app directly in your browser using StackBlitz:
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/jaydeep-bagthariya/UserSeeker)
+
 ## Features
 
 - **Search GitHub Users**: Enter a GitHub username to fetch and display user details (name and avatar).
