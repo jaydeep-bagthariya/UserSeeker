@@ -1,5 +1,5 @@
 import AppLayout from "@/layouts/app-layout";
-import LandingPage from "@/pages/landing";
+import Homepage from "@/pages/homepage";
 import SearchHistory from "@/pages/search-history";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -7,7 +7,7 @@ const router = createBrowserRouter([
   {
     element: <AppLayout />,
     children: [
-      { path: "/", element: <LandingPage /> },
+      { path: "/", element: <Homepage /> },
       { path: "/history", element: <SearchHistory /> },
     ],
   },

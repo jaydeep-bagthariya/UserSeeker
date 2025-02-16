@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { useSearchHistory } from "@/components/search-history-context";
-const LandingPage = () => {
+const Homepage = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResult, setSearchResult] = useState();
   const [isLoading, setIsLoading] = useState(false);
@@ -113,4 +113,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Homepage;
